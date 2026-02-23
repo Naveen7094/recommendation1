@@ -34,3 +34,37 @@ fertilizer_website/
 <script src="script.js"></script>
 </body>
 </html>
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #4CAF50, #2E7D32);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background: white;
+    color: black;
+    padding: 30px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    width: 200px;
+    margin-top: 20px;
+}
