@@ -68,3 +68,41 @@ img {
     width: 200px;
     margin-top: 20px;
 }
+document.getElementById("fertilizerForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let n = parseInt(document.getElementById("nitrogen").value);
+    let p = parseInt(document.getElementById("phosphorus").value);
+    let k = parseInt(document.getElementById("potassium").value);
+    let ph = parseFloat(document.getElementById("ph").value);
+
+    let recommendation = "";
+    let image = "";
+
+    if(n < 50) {
+        recommendation = "Urea Fertilizer";
+        image = "images/urea.jpg";
+    }
+    else if(p < 40) {
+        recommendation = "DAP Fertilizer";
+        image = "images/dap.jpg";
+    }
+    else if(k < 40) {
+        recommendation = "NPK Fertilizer";
+        image = "images/npk.jpg";
+    }
+    else if(ph < 6) {
+        recommendation = "Organic Compost";
+        image = "images/compost.jpg";
+    }
+    else {
+        recommendation = "Balanced NPK Fertilizer";
+        image = "images/npk.jpg";
+    }
+
+    document.getElementById("result").innerHTML = `
+        <h2>Recommended Fertilizer:</h2>
+        <h3>${recommendation}</h3>
+        <img src="${image}">
+    `;
+});
