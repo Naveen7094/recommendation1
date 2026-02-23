@@ -62,7 +62,139 @@ ai-fertilizer-system/
         <input type="number" id="potassium" placeholder="Potassium (K)" required>
         <button type="submit">Get Recommendation</button>
     </form>
+body {
+    font-family: Arial;
+    background-color: #f0f8f5;
+    text-align: center;
+}
 
+.login-container,
+.home-container,
+.form-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}body {
+    font-family: Arial;
+    background-color: #f0f8f5;
+    text-align: center;
+}
+
+.login-container,
+.home-container,
+.form-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}body {
+    font-family: Arial;
+    background-color: #f0f8f5;
+    text-align: center;
+}
+
+.login-container,
+.home-container,
+.form-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}body {
+    font-family: Arial;
+    background-color: #f0f8f5;
+    text-align: center;
+}
+
+.login-container,
+.home-container,
+.form-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}v
     <h3 id="result"></h3>
 </div>
 
